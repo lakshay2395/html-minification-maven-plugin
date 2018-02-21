@@ -1,0 +1,5 @@
+com\htmlminifier\v1\MyMojo.class
+com\htmlminifier\v1\services\DirectoryIterationService.class
+com\htmlminifier\v1\services\impl\MinificationServiceImpl.class
+com\htmlminifier\v1\services\impl\MinificationServiceImpl$1.class
+com\htmlminifier\v1\services\MinificationService.class
