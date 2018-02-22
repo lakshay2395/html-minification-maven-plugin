@@ -50,3 +50,5 @@ Optional configuration parameters (Example contains default values) -
 </configuration>
 ....
 ```
+## Notes
+Currently, the plugin isn't there for public access on Maven repo. In the meantime, one can clone and locally build the jar of the project and use it as a beta release. Do post any issues found in plugin.
