@@ -27,4 +27,26 @@ Below code provides a simple plugin code fragment to be placed in your pom.xml f
 ....
 ```
 ## Advanced Options
-Optional configuration parameters - 
+Optional configuration parameters (Example contains default values) - 
+```sh
+....
+<configuration>
+  ...
+  <remove-multispaces>true</remove-multispaces>
+  <remove-intertag-spaces>true</remove-intertag-spaces>
+  <remove-quotes>true</remove-quotes>
+  <simplify-doctype>true</simplify-doctype>
+  <remove-script-attrs>false</remove-script-attrs>
+  <remove-style-attrs>false</remove-style-attrs>
+  <remove-link-attrs>false</remove-link-attrs>
+  <remove-form-attrs>false</remove-form-attrs>
+  <remove-input-attrs>false</remove-input-attrs>
+  <remove-javascript-protocol>false</remove-javascript-protocol>
+  <remove-http-protocol>true</remove-http-protocol>
+  <remove-https-protocol>true</remove-https-protocol>
+  <preserve-original-linebreaks>false</preserve-original-linebreaks>
+  <minify-css>true</minify-css>
+  <minify-js>true</minify-js>
+</configuration>
+....
+```
